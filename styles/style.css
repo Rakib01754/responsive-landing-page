@@ -202,6 +202,11 @@ Media Queries
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .player,
+    .blog {
+        flex-direction: column;
+    }
+
     .course {
         margin-bottom: 20px;
     }
